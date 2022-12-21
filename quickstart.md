@@ -4,8 +4,8 @@ This quickstart guide will help you get the backend and frontend of your project
 
 ## Table of Contents
 
-* [Backend](todo link to backend section)
-* [Frontend](todo link to frontend section)
+* [Backend](#backend-java-and-gradle)
+* [Frontend](#frontend-node)
 
 ## Backend (Java and Gradle)
 
