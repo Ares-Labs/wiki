@@ -11,3 +11,10 @@ property.
 We hope this documentation serves as a helpful resource as you utilize the vert.x gateway wrapper and the other digital
 security tools we offer at AresLabs. If you have any questions or need further assistance, please don't hesitate to
 reach out to our team. We are here to help you keep your property safe and secure.
+
+## Table of Contents
+
+- [Welcome](home)
+- [Quickstart](quickstart)
+    - [Backend](quickstart#backend-java-and-gradle)
+    - [Frontend](quickstart#frontend-node)
