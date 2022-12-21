@@ -18,7 +18,7 @@ This quickstart guide will help you get the backend and frontend of your project
     ```
     gradle run
     ```
-4. The backend server should now be running and ready to handle requests. *(can be reached at localhost:8080)*
+4. The backend server should now be running and ready to handle requests. *(can be reached at http://localhost:8080)*
 
 ## Frontend (Node)
 
