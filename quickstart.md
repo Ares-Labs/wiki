@@ -2,11 +2,6 @@
 
 This quickstart guide will help you get the backend and frontend of your project up and running.
 
-## Table of Contents
-
-* [Backend](#backend-java-and-gradle)
-* [Frontend](#frontend-node)
-
 ## Backend (Java and Gradle)
 
 1. Ensure that you have Java and Gradle installed on your system. If you don't have them, you can download and install
