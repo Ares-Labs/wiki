@@ -664,7 +664,7 @@ provide a more seamless user experience.
 
 Emitted for all events.
 
-### events.alerts
+### `events.alerts`
 
 Emitted when a new alert is added.
 
@@ -673,7 +673,7 @@ Emitted when a new alert is added.
 - propertyId: String - The id of the property where the alert was added.
 - user: String - The id of the user who added the alert.
 
-### events.visits
+### `events.visits`
 
 Emitted when a new visitor is added.
 
@@ -682,7 +682,7 @@ Emitted when a new visitor is added.
 - propertyId: int - The id of the property where the visitor was added.
 - clientId: String - The id of the visitor who was added.
 
-### events.crimes
+### `events.crimes`
 
 Emitted when a new crime is added.
 
@@ -691,7 +691,7 @@ Emitted when a new crime is added.
 - propertyId: int - The id of the property where the crime occurred.
 - clientId: String - The id of the user who reported the crime.
 
-### events.scanned
+### `events.scanned`
 
 Emitted when a visitor is scanned.
 
@@ -700,7 +700,7 @@ Emitted when a visitor is scanned.
 - propertyId: String - The id of the property where the scan occurred.
 - clientId: String - The id of the visitor who was scanned.
 
-### events.auth-entries
+### `events.auth-entries`
 
 Emitted when a new entry is added to the authorization log.
 
@@ -709,7 +709,7 @@ Emitted when a new entry is added to the authorization log.
 - propertyId: String - The id of the property where the entry was added.
 - clientId: String - The id of the user who entered the property.
 
-### events.property-added
+### `events.property-added`
 
 Emitted when a new property is added.
 
@@ -718,7 +718,7 @@ Emitted when a new property is added.
 - id: int - The id of the property that was added.
 - owner: String - The id of the owner of the property.
 
-### events.property-status-change
+### `events.property-status-change`
 
 Emitted when the status of a property changes.
 
@@ -727,7 +727,7 @@ Emitted when the status of a property changes.
 - propertyId: int - The id of the property whose status changed.
 - status: String - The new status of the property.
 
-### events.property-equipment-change
+### `events.property-equipment-change`
 
 Emitted when the equipment of a property has been added or removed.
 
@@ -738,7 +738,7 @@ Emitted when the equipment of a property has been added or removed.
 - equipmentType: int - The type of equipment that was added or removed (optional, only present on add).
 - description: String - A description of the equipment that was added or removed (optional, only present on add).
 
-### events.requested-remove-property
+### `events.requested-remove-property`
 
 Emitted when a property has been requested to be removed.
 
@@ -746,7 +746,7 @@ Emitted when a property has been requested to be removed.
 
 - propertyId: int - The id of the property that was requested to be removed.
 
-### events.approved-remove-property
+### `events.approved-remove-property`
 
 Emitted when a property removal request has been approved.
 
@@ -754,7 +754,7 @@ Emitted when a property removal request has been approved.
 
 - propertyId: int - The id of the property that was approved to be removed.
 
-### events.drone-dispatched
+### `events.drone-dispatched`
 
 Emitted when a drone has been dispatched to a property.
 
@@ -763,7 +763,7 @@ Emitted when a drone has been dispatched to a property.
 - propertyId: int - The id of the property to which the drone was dispatched.
 - droneId: int - The id of the drone that was dispatched.
 
-### events.drone-recalled
+### `events.drone-recalled`
 
 Emitted when a drone has been recalled from a property.
 
@@ -772,7 +772,7 @@ Emitted when a drone has been recalled from a property.
 - propertyId: int - The id of the property from which the drone was recalled.
 - droneId: int - The id of the drone that was recalled.
 
-### events.property-coordinates-changed
+### `events.property-coordinates-changed`
 
 Emitted when the coordinates of a property have been changed in the database.
 
@@ -782,7 +782,7 @@ Emitted when the coordinates of a property have been changed in the database.
 - x: int - The new x coordinate of the property.
 - y: int - The new y coordinate of the property.
 
-### events.property-size-changed
+### `events.property-size-changed`
 
 Emitted when the size of a property has been changed in the database.
 
@@ -791,7 +791,7 @@ Emitted when the size of a property has been changed in the database.
 - propertyId: int - The id of the property whose size was changed.
 - size: int - The new size of the property.
 
-### events.property-tier-changed
+### `events.property-tier-changed`
 
 Emitted when the tier of a property has been changed in the database.
 
